@@ -1,0 +1,48 @@
+obiecte:
+-linii
+-masini
+-programe
+-programe
+-interval raport
+-setup fdraddr
+
+tabele
+-machines
+
+-dataflow
+----------
+-linie
+-masina
+-nr reteta
+-nr interval
+-nume reteta
+
+tabele
+-masini
+-job-list cu interval list
+-error list cu machine id, prog nr, int nr, feeder id, error id
+-placement list cu feeder id, nr pick, nr place, nr erori de fiecare tip: no pick, rej, etc
+
+obiecte
+-masini
+-nume programe
+-nr program
+-nr interval
+-lista feedere
+-interval query log
+-index nr de randuri log
+-set date pick
+-lista erori cu nr feeder si cod eroare
+-lista program cu nr program si ora cho
+
+folder:
+c:\fujiflexa\server\prod\nxtxx\
+
+fisiere
+-recipe_L.dbl
+(recipekey, startdate, recipename)
+-machinfo.dat
+(backupfoldernum)
+-reckey_L.dbl
+(recipekey, condition (1 closed, 0 open)
+-
